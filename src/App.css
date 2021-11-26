@@ -1,0 +1,55 @@
+.app{
+  max-width: 868px;;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #23252C;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: snow;
+  
+}
+.header{
+  line-height: 1rem;
+}
+.webpage{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  color: snow !important;
+  padding: 1.5rem 0;
+  width: 16rem;
+}
+.webpage > a{
+  color: lightblue;
+  text-decoration: none;
+}
+.webpage > a:hover{
+  color: hotpink;
+}
+.button a:link{
+  text-decoration: none;
+  border: none;
+}
+.header-btn:hover{
+  text-decoration: none;
+  border: none;
+  background-color: linen;
+  color: darkblue;
+  font-weight: 600;
+}
+.header-btn{
+  background-color: lightslategray;
+  border: none;
+  margin-right: 10px;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+.main  {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
